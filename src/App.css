@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  height: 100vh;
+  padding-bottom: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pop{
+  background-color: white;
+  position: absolute;
+  width: 569px;
+  height: 513px;
+  left: 501px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.drink {
+  width: 208px;
+  height: 144px;
+  margin: 17px 0 0 40px;
+}
+
+.cover {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 40px;
+}
+
+.enclose {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 3px 5px;
+  gap: 5px;
+  width: 83px;
+  height: 23px;
+  background-color: #E7F1F9;
+  border-radius: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thrills {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.available {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.carton {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.center {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.level {
+  width: 138px;
+  height: 26px;
+  background-color: #71A8DF;
+  padding: 17px 20px 15px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.history {
+  width: 122px;
+  height: 26px;
+  background-color: #71A8DF;
+  padding: 17px 20px 15px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.back {
+  width: 491px;
+  height: 57px;
+  margin-left: 40px;
+  padding: 17px 20px 15px;
+  background-color: #0A6EC7;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
 }
